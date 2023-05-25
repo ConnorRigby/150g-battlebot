@@ -813,7 +813,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "PCBot.step",
-      "vrml": ""
+      "vrml": "PCBot.wrl"
     },
     "page_layout_descr_file": ""
   },
