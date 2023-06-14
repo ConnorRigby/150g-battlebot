@@ -2629,7 +2629,7 @@
     (property "Value" "Antenna_Chip" (at 36.83 34.925 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 38.1 31.115 0)
+    (property "Footprint" "LCSC_Antenna:IPEX-SMD_BWIPX-1-001E" (at 38.1 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 31.115 0)

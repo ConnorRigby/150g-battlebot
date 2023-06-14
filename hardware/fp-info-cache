@@ -1,4 +1,4 @@
-21815612479957311
+21805572425337785
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -322,19 +322,12 @@ battery CR-3032 coin cell vertical
 2
 2
 Button
-SW-SMD_4P_DSHP02TSGET
-SW-SMD_4P_DSHP02TSGET footprint
-SW-SMD_4P_DSHP02TSGET footprint
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 0
 4
 4
-Button
-SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4
-SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4 footprint
-SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4 footprint
-0
-8
-8
 Button
 SW-SMD_L3.9-W3.0-P4.45
 SW-SMD_L3.9-W3.0-P4.45 footprint
@@ -50051,11 +50044,11 @@ traco dcdc tht 15w
 9
 Converter_DCDC
 Converter_DCDC_TRACO_THN30-xxxx_THT
-DCDC-Converter TRACO THN 10 to 30W, Single or dual Output, (https://www.tracopower.com/sites/default/files/products/datasheets/thn30_datasheet.pdf)
+DCDC-Converter TRACO THN 10 to 30W, Single or dual Output, (https://www.tracopower.com/sites/default/files/products/datasheets/thn15wi_datasheet.pdf)
 DCDC-Converter TRACO THN30 Generic
 0
 6
-6
+5
 Converter_DCDC
 Converter_DCDC_TRACO_TMR-1-xxxx_Dual_THT
 DCDC-Converter, TRACO, TMR 1-xxxx, Dual output, Rev. March 21.2016
@@ -52006,13 +51999,6 @@ Diode_SMD
 Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm
 SOD962-2 silicon, leadless ultra small package; 2 terminals; 0.4 mm pitch; 0.6 mm x 0.3 mm x 0.3 mm body (https://assets.nexperia.com/documents/package-information/SOD962-2.pdf https://www.nexperia.com/packages/SOD962-2.html)
 TVS protection diodes
-0
-2
-2
-Diode_SMD
-Vishay_SMPA
-Diode SMPA (DO-221BC), https://www.vishay.com/docs/87659/v8pa10.pdf
-Diode SMPA (DO-221BC)
 0
 2
 2
@@ -59843,19 +59829,12 @@ MICRO-USB-SMD_MICRO-USB-13 footprint
 9
 6
 LCSC_Connector
-PAD_01x02
-
-
+SMD-1_BD6.2-D3.6
+SMD-1_BD6.2-D3.6 footprint
+SMD-1_BD6.2-D3.6 footprint
 0
-2
-2
-LCSC_Connector
-PAD_01x04
-
-
-0
-4
-4
+1
+1
 LCSC_Connector
 SMD_BD5.6-D4.1
 SMD_BD5.6-D4.1 footprint
@@ -59870,6 +59849,13 @@ SMD_BD5.6-L5.6-W5.6-D3.6 footprint
 0
 4
 1
+LCSC_Connector
+SMD_BD5.6-L5.6-W5.6-D4.1
+SMD_BD5.6-L5.6-W5.6-D4.1 footprint
+SMD_BD5.6-L5.6-W5.6-D4.1 footprint
+0
+4
+4
 LCSC_Connector
 TC2070-IDC-FP
 
@@ -76264,13 +76250,6 @@ PowerDI 0.65
 0
 13
 5
-Package_SON
-Diodes_PowerDI3333-8_UXC_3.3x3.3mm_P0.65mm
-Diodes Incorporated PowerDI3333-8 UXC, 3.05x3.05x0.8mm Body, https://www.diodes.com/assets/Package-Files/PowerDI3333-8%20(Type%20UXC).pdf
-PowerDI 0.65
-0
-6
-6
 Package_SON
 Fairchild_DualPower33-6_3x3mm
 Fairchild Power33 MOSFET package, 3x3mm (see https://www.fairchildsemi.com/datasheets/FD/FDMC8032L.pdf)
