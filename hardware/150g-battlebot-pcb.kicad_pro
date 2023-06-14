@@ -843,6 +843,26 @@
     [
       "80268558-ae7f-45c2-9b9a-7f2ee458c642",
       ""
+    ],
+    [
+      "a6fdeb0f-00a3-4c9c-b487-7b0f0a12f09d",
+      "MotorDrivers"
+    ],
+    [
+      "d2ef0cfe-7356-422d-9341-080c7a3d3a47",
+      "PowerInput"
+    ],
+    [
+      "e2b03125-520a-44fd-a3aa-8e2f9924ead9",
+      "Application"
+    ],
+    [
+      "f96a4b82-6d44-4b23-8cfe-3bbd7486daa6",
+      "Sensors"
+    ],
+    [
+      "4ac9ecc8-4b85-4054-bb4f-6c3d858bd6f2",
+      "RF"
     ]
   ],
   "text_variables": {}
