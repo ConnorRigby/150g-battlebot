@@ -400,7 +400,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -446,26 +446,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "CAN",
+        "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DIGITAL_INPUT_PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(128, 77, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -482,7 +465,7 @@
         "microvia_drill": 0.1,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -497,9 +480,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "NZR_OUT",
+        "name": "JTAG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 0, 132)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -514,9 +497,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -531,60 +514,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power_HF",
+        "name": "RCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(221, 133, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 194, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RGB_PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RGB_PWR_FET",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -601,7 +533,7 @@
         "microvia_drill": 0.1,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 194)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -618,24 +550,7 @@
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 132, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -646,153 +561,54 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "CAN",
-        "pattern": "/Application/CAN_RX"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/Application/CAN_TX"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/CAN/CAN_H"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/CAN/CAN_L"
-      },
-      {
-        "netclass": "DIGITAL_INPUT_PWR",
-        "pattern": "/Digital Input/DI_1"
-      },
-      {
-        "netclass": "DIGITAL_INPUT_PWR",
-        "pattern": "/Digital Input/DI_2"
-      },
-      {
-        "netclass": "DIGITAL_INPUT_PWR",
-        "pattern": "/Digital Input/DI_3"
-      },
-      {
-        "netclass": "DIGITAL_INPUT_PWR",
-        "pattern": "/Digital Input/DI_4"
-      },
-      {
-        "netclass": "NZR_OUT",
-        "pattern": "/RGB/PIXEL_1"
-      },
-      {
-        "netclass": "NZR_OUT",
-        "pattern": "/RGB/PIXEL_2"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power/EN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Power/VIN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/RGB/RGB1_G_GATE"
-      },
-      {
-        "netclass": "Power_HF",
-        "pattern": "+VSW"
-      },
-      {
-        "netclass": "Power_HF",
-        "pattern": "/Power/SW"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/BLE/BT_ANT"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/BLE/RFIOp"
-      },
-      {
-        "netclass": "RGB_PWR",
-        "pattern": "/RGB/RGB1_B"
-      },
-      {
-        "netclass": "RGB_PWR",
-        "pattern": "/RGB/RGB1_G"
-      },
-      {
-        "netclass": "RGB_PWR",
-        "pattern": "/RGB/RGB1_R"
-      },
-      {
-        "netclass": "RGB_PWR",
-        "pattern": "/RGB/RGB2_B"
-      },
-      {
-        "netclass": "RGB_PWR",
-        "pattern": "/RGB/RGB2_G"
-      },
-      {
-        "netclass": "RGB_PWR",
-        "pattern": "/RGB/RGB2_R"
-      },
-      {
-        "netclass": "RGB_PWR_FET",
-        "pattern": "/RGB/RGB1_12V"
-      },
-      {
-        "netclass": "RGB_PWR_FET",
-        "pattern": "/RGB/RGB2_12V"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/Application/SPI1_IRQ"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/Application/SPI1_MISO"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/Application/SPI1_MOSI"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/Application/SPI1_NSS"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/Application/SPI1_RESET"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/Application/SPI1_SCK"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "/Application/LPUART1_CTS"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "/Application/LPUART1_RTS"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "/Application/LPUART1_RX"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "/Application/LPUART1_TX"
-      }
-    ]
+    "netclass_assignments": {
+      "/Application/JTRST": "JTAG",
+      "/Application/OSC32_IN": "RCC",
+      "/Application/OSC32_OUT": "RCC",
+      "/Application/OSC_IN": "RCC",
+      "/Application/OSC_OUT": "RCC",
+      "/Application/VCP_RX": "UART",
+      "/Application/VCP_TX": "UART",
+      "/Application/~{NRESET}": "GPIO",
+      "/Application/~{RESET}": "GPIO",
+      "/MotorDrivers/M1_ENB_A": "GPIO",
+      "/MotorDrivers/M1_ENC_A": "GPIO",
+      "/MotorDrivers/M1_OUTA": "Analog",
+      "/MotorDrivers/M1_OUTB": "Analog",
+      "/MotorDrivers/M1_PH": "GPIO",
+      "/MotorDrivers/M1_PWM": "PWM",
+      "/MotorDrivers/M1_SENSE": "Analog",
+      "/MotorDrivers/M2_ENB_A": "GPIO",
+      "/MotorDrivers/M2_ENC_A": "GPIO",
+      "/MotorDrivers/M2_OUTA": "Analog",
+      "/MotorDrivers/M2_OUTB": "Analog",
+      "/MotorDrivers/M2_PH": "GPIO",
+      "/MotorDrivers/M2_PWM": "PWM",
+      "/MotorDrivers/M2_SENSE": "Analog",
+      "/MotorDrivers/M3_ENB_A": "GPIO",
+      "/MotorDrivers/M3_ENC_A": "GPIO",
+      "/MotorDrivers/M3_M4_TOFF": "PWM",
+      "/MotorDrivers/M3_OUTA": "Analog",
+      "/MotorDrivers/M3_OUTB": "Analog",
+      "/MotorDrivers/M3_PH": "GPIO",
+      "/MotorDrivers/M3_PWM": "PWM",
+      "/MotorDrivers/M3_SENSE": "Analog",
+      "/MotorDrivers/M4_ENB_A": "GPIO",
+      "/MotorDrivers/M4_ENC_A": "GPIO",
+      "/MotorDrivers/M4_OUTA": "Analog",
+      "/MotorDrivers/M4_OUTB": "Analog",
+      "/MotorDrivers/M4_PH": "GPIO",
+      "/MotorDrivers/M4_PWM": "PWM",
+      "/MotorDrivers/M4_SENSE": "Analog",
+      "/MotorDrivers/REF": "PWM",
+      "/Sensors/INT1": "GPIO",
+      "/Sensors/INT2": "GPIO",
+      "/Sensors/MISO": "SPI",
+      "/Sensors/MOSI": "SPI",
+      "/Sensors/SCLK": "SPI",
+      "/Sensors/~{CS}": "SPI"
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -845,8 +661,8 @@
       ""
     ],
     [
-      "a6fdeb0f-00a3-4c9c-b487-7b0f0a12f09d",
-      "MotorDrivers"
+      "bc271d96-7f39-4e0e-8f98-cb70d05085ee",
+      "RF"
     ],
     [
       "d2ef0cfe-7356-422d-9341-080c7a3d3a47",
@@ -861,8 +677,8 @@
       "Sensors"
     ],
     [
-      "4ac9ecc8-4b85-4054-bb4f-6c3d858bd6f2",
-      "RF"
+      "a6fdeb0f-00a3-4c9c-b487-7b0f0a12f09d",
+      "MotorDrivers"
     ]
   ],
   "text_variables": {}

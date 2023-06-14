@@ -8,23 +8,6 @@
   )
 
 
-  (sheet (at 96.52 127) (size 30.48 22.86) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4ac9ecc8-4b85-4054-bb4f-6c3d858bd6f2)
-    (property "Sheetname" "RF" (at 96.52 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "RF.kicad_sch" (at 96.52 150.4446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "150g-battlebot-pcb"
-        (path "/80268558-ae7f-45c2-9b9a-7f2ee458c642" (page "6"))
-      )
-    )
-  )
-
   (sheet (at 231.14 29.21) (size 16.51 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -37,19 +20,36 @@
     )
     (instances
       (project "150g-battlebot-pcb"
+        (path "/80268558-ae7f-45c2-9b9a-7f2ee458c642" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 82.55 121.92) (size 25.4 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bc271d96-7f39-4e0e-8f98-cb70d05085ee)
+    (property "Sheetname" "RF" (at 82.55 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RF.kicad_sch" (at 82.55 155.5246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "150g-battlebot-pcb"
         (path "/80268558-ae7f-45c2-9b9a-7f2ee458c642" (page "2"))
       )
     )
   )
 
-  (sheet (at 144.78 52.07) (size 29.21 20.32) (fields_autoplaced)
+  (sheet (at 25.4 24.13) (size 29.21 20.32) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d2ef0cfe-7356-422d-9341-080c7a3d3a47)
-    (property "Sheetname" "PowerInput" (at 144.78 51.3584 0)
+    (property "Sheetname" "PowerInput" (at 25.4 23.4184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "PowerInput.kicad_sch" (at 144.78 72.9746 0)
+    (property "Sheetfile" "PowerInput.kicad_sch" (at 25.4 45.0346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
